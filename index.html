@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas Plus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Películas Plus</h1>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button> <!-- Menú de hamburguesa -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#estrenos">Estrenos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#trailers">Trailers</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#top-10">Top 10</a></li>
+                <li><a href="#suscribirse">Suscríbete Gratis</a></li>
+            </ul>
+        </nav>
+        <a href="#suscribirse" class="cta-button">Suscríbete Gratis</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Las mejores películas en un solo lugar</h2>
+            <p>Reseñas, noticias y estrenos en tiempo real.</p>
+            <a href="#trailers" class="button">Ver trailers</a>
+            <a href="#suscribirse" class="button">Registrarse</a>
+        </div>
+    </section>
+
+    <!-- Estrenos Destacados -->
+    <section id="estrenos">
+        <h3>Estrenos Destacados</h3>
+        <div class="estrenos-grid">
+            <!-- Ejemplo de estreno -->
+            <div class="estreno">
+                <img src="imagenes/inception.jpg" alt="Póster de la película 1"> <!-- Reemplaza con la imagen de tu estreno -->
+                <h4>El Origen</h4>
+                <p>Fecha de Estreno: 2010</p>
+                <p>Género: Acción, Ciencia Ficción</p>
+                <p>A un ladrón que roba secretos corporativos a través de la tecnología de entrar en el subconsciente, se le da la tarea de implantar una idea en la mente del jefe de una gran empresa.</p>
+            </div>
+            <div class="estreno">
+                <img src="imagenes/oppenheimer.jpg" alt="Póster de la película 2"> <!-- Reemplaza con la imagen de tu estreno -->
+                <h4>Oppenheimer</h4>
+                <p>Fecha de Estreno: 2023</p>
+                <p>Género: Drama, Biografía</p>
+                <p>La historia del científico estadounidense J. Robert Oppenheimer y su papel en el desarrollo de la bomba atómica.</p>
+            </div>
+            <!-- Más estrenos... -->
+        </div>
+    </section>
+
+    <!-- Reseñas y Calificaciones -->
+    <section id="reseñas">
+        <h3>Reseñas y Calificaciones</h3>
+        <div class="reseñas-list">
+            <div class="reseña">
+                <h4>Inception</h4>
+                <p>⭐⭐⭐⭐⭐ 4.5/5</p>
+                <p>"Una obra maestra de la ciencia ficción..."</p>
+                <a href="#">Leer reseña completa</a>
+            </div>
+            <!-- Más reseñas... -->
+        </div>
+    </section>
+
+    <!-- Últimas Noticias de Cine -->
+    <section id="noticias">
+        <h3>Últimas Noticias de Cine</h3>
+        <div class="noticias-list">
+            <article>
+                <img src="imagenes/avatar.jpg" alt="Imagen de noticia 1"> <!-- Reemplaza con la imagen de la noticia -->
+                <h4>Gran estreno de película</h4>
+                <p>Avatar 3 aterrizará en la cartelera el 19 de diciembre de 2025. Avatar 4 lo hará el 21 de diciembre de 2029. Por último, Avatar 5 se estrenará el 19 de diciembre de 2031.</p>
+                <a href="#">Leer más</a>
+            </article>
+            <article>
+                <img src="imagenes/johnwick.jpg" alt="Imagen de noticia 2"> <!-- Reemplaza con la imagen de la noticia -->
+                <h4>Keanu Reeves, sobre las escenas de acción de 'John Wick'</h4>
+                <p>Keanu Reeves recuerda el sacrificio detrás de las escenas de acción de 'John Wick', que cumple 10 años con un reestreno en cines de todo el mundo</p>
+                <a href="#">Leer más</a>
+            </article>
+            <!-- Más noticias... -->
+        </div>
+    </section>
+
+    <!-- Top 10 Películas de la Semana -->
+    <section id="top-10">
+        <h3>Top 10 Películas de la Semana</h3>
+        <ol class="top-10-list">
+            <li>
+                <img src="imagenes/godfather.jpg" alt="Póster de la película top 1"> <!-- Reemplaza con la imagen de la película -->
+                <h4>El Padrino</h4>
+                <p>⭐⭐⭐⭐⭐ 5/5</p>
+                <p>Una inmersión profunda en el mundo de la mafia, que muestra el ascenso y los dilemas morales de la poderosa familia criminal Corleone.</p>
+            </li>
+            <li>
+                <img src="imagenes/odyssey.png" alt="Póster de la película top 2"> <!-- Reemplaza con la imagen de la película -->
+                <h4>2001. Odisea del Espacio</h4>
+                <p>⭐⭐⭐⭐ 4/5</p>
+                <p>Después de descubrir un artefacto misterioso enterrado debajo de la superficie lunar, la humanidad emprende una búsqueda para encontrar sus orígenes con la ayuda de una supercomputadora inteligente.</p>
+            </li>
+            <!-- Más top películas... -->
+        </ol>
+    </section>
+
+    <!-- Sección de Trailers -->
+    <section id="trailers">
+        <h3>Trailers</h3>
+        <div class="trailers-grid">
+            <div class="trailer">
+                <iframe class="youtube-video" src="https://www.youtube.com/embed/t433PEQGErc" frameborder="0" allowfullscreen></iframe>
+                <h4>Joker</h4>
+            </div>
+            <!-- Más trailers... -->
+        </div>
+    </section>
+
+    <!-- Formulario de Suscripción al Boletín -->
+    <section id="suscribirse">
+        <h3>Suscríbete a nuestro Boletín</h3>
+        <p>No te pierdas ningún estreno. Recibe lo último en noticias y reseñas de cine directamente en tu correo.</p>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+        </form>
+    </section>
+
+    <!-- Testimonios de Usuarios -->
+    <section id="testimonios">
+        <h3>Lo que dicen nuestros usuarios</h3>
+        <div class="testimonios-grid">
+            <blockquote>
+                <p>"La mejor página para mantenerse al día con los estrenos."</p>
+                <footer>- Usuario satisfecho</footer>
+            </blockquote>
+            <!-- Más testimonios... -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Acerca de nosotros</a> |
+            <a href="#">Contacto</a> |
+            <a href="#">Política de privacidad</a> |
+            <a href="#">Términos de servicio</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
